@@ -16,7 +16,7 @@ public class PecaPadrao implements Peca {
 
 	private Color cor;
 
-	private int tamanho;
+	protected int tamanho;
 
 	private Color corBorda;
 

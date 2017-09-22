@@ -43,6 +43,12 @@ public class Casa {
 		return new Point(linha * tamanho + tamanho / 2, coluna * tamanho + tamanho / 2);
 	}
 
+	
+	
+	public Integer getTamanho() {
+		return tamanho;
+	}
+
 	public Integer getLinha() {
 		return linha;
 	}

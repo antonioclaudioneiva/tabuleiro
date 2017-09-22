@@ -170,7 +170,7 @@ public class Tabuleiro extends JPanel {
 	}
 
 	private Integer calcularTamanhoCasa(int largura) {
-		return largura / QTD_CASAS_PADRAO;
+		return largura / qtdCasas;
 	}
 
 	@Override
@@ -179,8 +179,8 @@ public class Tabuleiro extends JPanel {
 	}
 
 	private void desenharTabuleiro(Graphics g) {
-		for (int i = 0; i < QTD_CASAS_PADRAO; i++) {
-			for (int j = 0; j < QTD_CASAS_PADRAO; j++) {
+		for (int i = 0; i < qtdCasas; i++) {
+			for (int j = 0; j < qtdCasas; j++) {
 				casasTabuleiro[j][i].desenhar(g);
 			}
 		}
